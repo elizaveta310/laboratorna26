@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Контакти</title>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Головна</a> |
+    <a href="technologies.html">Технології</a> |
+    <a href="contact.html">Контакти</a>
+</nav>
+
+<h1>Форма зворотного зв'язку</h1>
+
+<form action="/submit" method="POST">
+
+<label>Ім'я:</label><br>
+<input type="text" name="name"><br><br>
+
+<label>Email:</label><br>
+<input type="email" name="email"><br><br>
+
+<label>Пароль:</label><br>
+<input type="password" name="password"><br><br>
+
+<label>Телефон:</label><br>
+<input type="tel" name="phone"><br><br>
+
+<label>Дата:</label><br>
+<input type="date" name="date"><br><br>
+
+<label>Оберіть колір:</label><br>
+<input type="color" name="color"><br><br>
+
+<p>Ваш рівень знань:</p>
+<input type="radio" name="level" value="beginner"> Початковий
+<input type="radio" name="level" value="intermediate"> Середній
+<input type="radio" name="level" value="advanced"> Високий
+<br><br>
+
+<p>Що вас цікавить:</p>
+<input type="checkbox" name="interest1"> Веб-розробка
+<input type="checkbox" name="interest2"> Data Science
+<br><br>
+
+<label>Оберіть мову програмування:</label>
+<select name="language">
+    <option>Python</option>
+    <option>Java</option>
+    <option>C++</option>
+</select>
+<br><br>
+
+<label>Завантажити файл:</label>
+<input type="file" name="file"multiple><br><br>
+
+<input type="submit" value="Надіслати">
+<input type="reset" value="Скинути">
+
+</form>
+
+</body>
+</html>
